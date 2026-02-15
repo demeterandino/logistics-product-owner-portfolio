@@ -34,40 +34,47 @@ It covers two closely related focus areas:
 
 ---
 
-## Start here
+## Start here (mapped to repository structure)
 
-### 1) Product framing (Both roles)
+### 01-context (Both roles)
+- [Context diagram](01-context/context-diagram.md)
+
+### 02-product (Both roles)
 - [Vision & objectives](02-product/vision-and-objectives.md)
 - [KPIs & SLOs](02-product/kpis-and-slos.md)
 - [Roadmap (Now/Next/Later)](02-product/roadmap.md)
 
-### 2) System context (Both roles)
-- [Context diagram](01-context/context-diagram.md)
-
-### 3) Core backlog examples (Both roles)
+### 03-backlog (Both roles + role-specific)
+#### Core stories (Both roles)
 - [US-C01 — Integration reliability: retries + idempotency](03-backlog/stories/core/US-C01-idempotency-retry.md)
 - [US-C02 — Integration monitoring & alerting](03-backlog/stories/core/US-C02-integration-monitoring.md)
 - [US-C03 — Rollout to a new site (phased) + hypercare](03-backlog/stories/core/US-C03-phased-rollout-hypercare.md)
 
-### 4) Role A — Integrations focus (Integrations role)
+#### Integrations focus (Integrations role)
 - [Integrations catalogue](03-backlog/stories/integrations/integration-catalogue.md)
 - [US-I01 — Add a new carrier integration](03-backlog/stories/integrations/US-I01-new-carrier-integration.md)
 - [US-I02 — Maintain compatibility from partner documentation](03-backlog/stories/integrations/US-I02-compatibility-maintenance.md)
 
-### 5) Role B — WMS / Warehouse rollout focus (Logistics/WMS role)
-- [Warehouse rollout playbook](04-delivery/warehouse-rollout-playbook.md)
-- [UAT checklist (warehouse flows)](05-quality/uat-checklist-warehouse.md)
+#### WMS / Warehouse rollout focus (Logistics/WMS role)
 - [US-W01 — Onboard a new warehouse site](03-backlog/stories/wms-rollout/US-W01-new-warehouse-onboarding.md)
 - [US-W02 — Warehouse reporting & KPI dashboard setup](03-backlog/stories/wms-rollout/US-W02-reporting-kpis.md)
 
-### 6) Operations & quality (Both roles)
-- [Acceptance gates & UAT approach](05-quality/acceptance-gates.md)
-- [Incident → Backlog](06-operations/incident-to-backlog.md)
-- [Change management](04-delivery/change-management.md)
-- [Release notes example](09-releases/release-notes-R1.0.md)
-
-### 7) Templates (Both roles)
+#### Templates (Both roles)
 - [User story template](03-backlog/templates/user-story-template.md)
+
+### 04-delivery (Both roles)
+- [Warehouse rollout playbook](04-delivery/warehouse-rollout-playbook.md)
+- [Change management](04-delivery/change-management.md)
+
+### 05-quality (Both roles)
+- [UAT checklist (warehouse flows)](05-quality/uat-checklist-warehouse.md)
+- [Acceptance gates & UAT approach](05-quality/acceptance-gates.md)
+
+### 06-operations (Both roles)
+- [Incident → Backlog](06-operations/incident-to-backlog.md)
+
+### 07-releases (Both roles)
+- [Release notes example](07-releases/release-notes-R1.0.md)
 
 ---
 
@@ -78,4 +85,4 @@ It covers two closely related focus areas:
 - `04-delivery/` — rollout playbooks and change management
 - `05-quality/` — UAT and acceptance approach
 - `06-operations/` — incident-to-backlog loop
-- `09-releases/` — example release notes
+- `07-releases/` — example release notes
